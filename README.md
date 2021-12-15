@@ -17,3 +17,6 @@ Count the value of the hand
 Problem #3
 Check to see if the hand is an automatic bust
 
+Problem #4
+Dealer's Hand
+
