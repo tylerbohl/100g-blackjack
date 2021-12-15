@@ -14,3 +14,6 @@ Create a deck
 Problem #2
 Count the value of the hand
 
+Problem #3
+Check to see if the hand is an automatic bust
+
