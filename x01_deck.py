@@ -20,9 +20,9 @@ def createDeck():
 
 def main():
   deck = createDeck()
-  assert "JH" in deck == True
-  assert "AC" in deck == True
-  assert "TD" in deck == True
+  assert "JH" in deck 
+  assert "AC" in deck 
+  assert "TD" in deck 
   assert len(deck) == 52
   
 if __name__ == "__main__":
