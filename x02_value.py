@@ -1,7 +1,5 @@
 #!python3
-
-def value(hand):
-  '''
+'''
   input:
   list hand: hand is a list of strings that contains the cards in the hand
   eg: ['AH','3D','4S']
@@ -11,8 +9,33 @@ def value(hand):
   may return a list if the hand contains an Ace
   eg:
   '''
-  
-  return None
+
+def value(hand):
+  total = 0
+  total2 = 0
+  for i in range(hand):
+   if "A" in hand:
+    total = total + 11
+    return (total - 10)
+   elif "J" in hand: 
+     total = total + 10
+   elif "Q" in hand: 
+     total = total + 10
+   elif "K" in hand: 
+     total = total + 10
+     n = 1
+     #1
+   elif n in hand: 
+     total = total + 10
+   else:
+    n = n+1
+    for i in range(8):
+     n = i + 1
+     if n in hand: 
+      total = total + n
+     else:
+      continue
+    
 
 
 def main():

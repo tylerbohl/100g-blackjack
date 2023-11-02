@@ -6,16 +6,11 @@ Create a function that determines if the score is a bust
 '''
 
 def busts(score):
-  '''
-  inputs:
-  int score:  determined by another function
-  
-  return:
-  True : user busts if the score is over 21
-  False : user does not bust becuase score is 21 or less
-  '''
-  
-  return None
+  if score > 21:
+    bust = True
+  else:
+    bust = False
+  return bust
 
 
 def main():
